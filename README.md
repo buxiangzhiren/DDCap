@@ -50,7 +50,7 @@ Change the work directory and set up the code of evaluation :
 cd ./captioneval/coco_caption
 bash ./get_stanford_models.sh
 ```
-### Prepare evaluation
+### Run
 ```
 python train.py --data ./data/coco/oscar_split_ViT-B_32_train.pkl --out_dir ./coco_train/
 ```
