@@ -58,6 +58,7 @@ python train.py --data ./data/coco/oscar_split_ViT-B_32_train.pkl --out_dir ./co
 ## Citation
 If you use this code for your research, please cite:
 ```
+MKL_THREADING_LAYER=GPU  python -m torch.distributed.launch --nproc_per_node 8  train.py  --out_dir /results_diff --tag caption_diff_vitb16
 ```
 
 
