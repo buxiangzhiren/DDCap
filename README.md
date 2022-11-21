@@ -4,14 +4,6 @@
 ## Official implementation for the paper ["Exploring Discrete Diffusion Models for Image Captioning"]()
 
 
-
-
-## Description  
-
-
-
-
-
 ## Training prerequisites
 
 [comment]: <> (Dependencies can be found at the [Inference notebook]&#40;https://colab.research.google.com/drive/1tuoAC5F4sC7qid56Z0ap-stR3rwdk0ZV?usp=sharing&#41; )
