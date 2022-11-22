@@ -1,7 +1,7 @@
 # Exploring Discrete Diffusion Models for Image Captioning.
 
 
-## Official implementation for the paper ["Exploring Discrete Diffusion Models for Image Captioning"]()
+## Official implementation for the paper ["Exploring Discrete Diffusion Models for Image Captioning"](https://arxiv.org/abs/2211.11694)
 
 
 ## Training prerequisites
