@@ -360,6 +360,7 @@ class ClipCaptionModel(nn.Module):
                 mask: Optional[torch.Tensor] = None, t = None,
                 labels: Optional[torch.Tensor] = None):
         self.clip_model.eval()
+        # tokens = torch.where(mask_tokens == 50257, tokens, mask_tokens) # if you want to use beta, add this line
         embedding_text = self.gpt.transformer.wte(tokens)
         batch_size = embedding_text.size()[0]
         seq_len = embedding_text.size()[1]
