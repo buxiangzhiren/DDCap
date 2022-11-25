@@ -756,7 +756,7 @@ def train(model, epoch, train_dataloader, optimizer, lr_scheduler, scaler, args,
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data', default='/zzx_vlexp/CLIP_prefix_caption/data/coco/oscar_split_ViT-B_32_train_512.pkl')
+    parser.add_argument('--data', default='./data/coco/oscar_split_ViT-B_32_train_512.pkl')
     parser.add_argument('--data_root', default='./MSCOCO_Caption/', help='raw coco training image path')
     parser.add_argument('--out_dir', default='./checkpoints')
     parser.add_argument('--epochs', type=int, default=30)
