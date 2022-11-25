@@ -51,7 +51,12 @@ MKL_THREADING_LAYER=GPU  python -m torch.distributed.launch --nproc_per_node 8  
 ## Citation
 If you use this code for your research, please cite:
 ```
-
+@article{zhu2022exploring,
+  title={Exploring Discrete Diffusion Models for Image Captioning},
+  author={Zhu, Zixin and Wei, Yixuan and Wang, Jianfeng and Gan, Zhe and Zhang, Zheng and Wang, Le and Hua, Gang and Wang, Lijuan and Liu, Zicheng and Hu, Han},
+  journal={arXiv preprint arXiv:2211.11694},
+  year={2022}
+}
 ```
 
 
