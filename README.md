@@ -15,6 +15,11 @@ or
 ```
 bash install_req.sh
 ```
+or
+```
+pip install -r requirements.txt
+```
+
 
 ## COCO training
 
