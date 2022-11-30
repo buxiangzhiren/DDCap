@@ -53,7 +53,11 @@ bash ./get_stanford_models.sh
 ```
 MKL_THREADING_LAYER=GPU  python -m torch.distributed.launch --nproc_per_node 8  train.py  --out_dir /results_diff --tag caption_diff_vitb16
 ```
-
+If you want train the model with trainable clip, you can use the command:
+```
+MKL_THREADING_LAYER=GPU  python -m torch.distributed.launch --nproc_per_node 8  train_tclip.py  --out_dir /results_diff --tag caption_diff_vitb16
+```
+Please noting that we detach the gradients of [CLS] tokens during the training process of clip model. Because We observe that when the image encoder (clip) is trainable, the gradient backward of [CLS] tokens will damage the training of image encoder (clip).
 ## Citation
 If you use this code for your research, please cite:
 ```
