@@ -662,7 +662,7 @@ def val(model, epoch, val_dataloader, args):
         result_all = []
         ra_id = []
         for i in range(dist.get_world_size()):
-            part_result = json.load(open(f"{args.out_dir}/.cache/{args.tag}/tmp-results-{i}.json"))
+            part_result = json.load(open(f".cache/{args.tag}/tmp-results-{i}.json"))
             for ep in part_result:
                 if ep['image_id'] not in ra_id:
                     ra_id.append(ep['image_id'])
