@@ -74,7 +74,7 @@ If you use this code for your research, please cite:
 This repository is heavily based on [CLIP](https://github.com/openai/CLIP), [CLIP_prefix_caption](https://github.com/rmokady/CLIP_prefix_caption) and [Hugging-faces](https://github.com/huggingface/transformers) repositories.
 For training we used the data of [COCO dataset](https://cocodataset.org/#home). 
 
-## Contact
-For any inquiry please contact us at our email addresses: ron.mokady@gmail.com or amirhertz@mail.tau.ac.il.
+
+
 
 
